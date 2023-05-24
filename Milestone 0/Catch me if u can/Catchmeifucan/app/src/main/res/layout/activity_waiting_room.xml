@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <TextView
+            android:id="@+id/textViewTeam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:text="First Player!  "
+
+            android:textSize="25dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+
+            />
+
+        <TextView
+            android:id="@+id/Name_player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+
+            app:layout_constraintBottom_toTopOf="@+id/textViewTeam2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textViewTeam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="80dp"
+            android:text="Second player!"
+
+            android:textSize="25dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/Name_player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+
+            android:layout_marginBottom="0dp"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toTopOf="@+id/textViewTeam2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+<!--        <TextView-->
+<!--            android:id="@+id/Name_player3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+
+<!--            android:layout_marginBottom="0dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/waiting_button"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:ignore="MissingConstraints" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/Name_player4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="25dp"-->
+
+<!--            android:layout_marginBottom="0dp"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/waiting_button"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:ignore="MissingConstraints" />-->
+
+
+
+        <Button
+            android:id="@+id/waiting_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="50dp"
+            android:text="Play"
+            android:theme="@style/Theme.Material3.Light"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
